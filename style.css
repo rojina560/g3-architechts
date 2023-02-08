@@ -1,0 +1,253 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+padding: 0;
+margin: 0;
+}
+ /* navigation bar  */
+ header{
+    background-color: bisque;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+ }
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    margin: auto;
+    padding-top: 50px;
+    
+}
+     nav a{
+        text-decoration: none;
+        color:black ;
+        padding: 0 15px;
+     }
+     nav h2{
+        font-size: 25px;
+        font-weight: bold;
+        
+     }
+     /* finished navigation  */
+     /* banner section start  */
+     .banner-contaner{
+        
+     }
+     .banner-img{
+        width: 1150px;
+        margin: auto;
+
+     }
+     .banner-img img{
+        width: 100%;
+    }
+    .banner-title{
+        text-align: center;
+    }
+    .banner-title h1{
+        padding-top: 70px;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+.banner-title p{
+    text-align: inherit;
+    color: gray;
+    font-size: 14px;
+    padding-top: 15px;
+
+}
+.btn{
+    padding: 15px 20px;
+    font-size: 20px;
+    margin: 30px 0;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: orangered;
+}
+/* banner section finihed  */
+#team-parent{
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    margin: auto;
+    gap:70px ;
+    padding-bottom: 100px;
+    
+}
+.team-img{
+    width: 750px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 15px;
+
+}
+.team-img img{
+    width: 100%;
+
+}
+.team-title span{
+    color: gray;
+}
+.team-title h3{
+    color: rgb(242, 86, 29);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.team-title h2{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.team-title p{
+    color: gray;
+    padding-bottom: 25PX;
+    padding-top: 20PX;
+    text-decoration: inherit;
+
+}
+.btn2{
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: orangered;   
+}
+/* team section code finished  */
+/* architech section code start  */
+#architect-parent{
+   display: flex;
+   justify-content: space-between;
+   width: 1250px;
+   margin: auto;
+  margin-bottom: 100px;
+}
+.architect-img{
+    width: 600px;
+}
+.architect-img img{
+    width: 100%;
+}
+#architect-parent{
+
+}
+.title-top h2{
+font-size: 35px;
+font-weight: 900;
+border-left: 5px solid 
+orangered;
+padding-left: 15px;
+
+
+}
+.title-top p{
+    color: gray;
+    padding-top: 20px ;
+    font-weight: lighter;
+
+}
+.single-title{
+    padding-left: 15px;
+}
+.single-title h4{
+    padding-top: 55px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.815);
+}
+.single-title p{
+    padding: 10px 0;
+    color: grey;
+    font-size: 16px;
+}
+.btn3{
+    padding: 35px 35px;
+    font-size: 20px;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    margin-top: -150px;
+    color: white;
+
+}
+.btn3 span{
+    font-size: 40px;
+    font-weight: 900;
+    }
+    /* architect section code finished  */
+/* card section code start  */
+#some-facts{
+    padding-left: 200px;
+    padding-bottom: 70px;
+}
+#some-facts h2{
+    font-size: 35px;
+    font-weight: 800;
+    padding: 20px 0;
+}
+#some-facts p{
+    color: gray;
+}
+.card-parent{
+     width: 1150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 100px;
+    
+
+}
+.card-title{
+    border: 1px solid orangered;
+    padding:35px 35px ;
+    border-radius: 5px;
+
+   
+}
+.card-title h2{
+    font-size: 40px;
+}
+
+   .card-title p{
+    color: gray;
+    font-weight: bolder;
+   }
+   /* card section code finished  */
+   /* main section finished  */
+   /* footer section start  */
+   .Sponsors-title{
+    text-align: center;
+    padding-bottom: 40px;
+   }
+   .Sponsors-title h2{
+    font-size: 40px;
+    font-weight: 800;
+   }
+.Sponsors-title p{
+    color: gray;
+    padding: 20px 0;
+}
+.sponsors-icon{
+    width: 1250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly; 
+    padding-bottom: 100px;
+    
+}
+.footer{
+width: 700px;
+margin: auto;
+background-color: bisque;
+margin-bottom: 100px;
+height: 70px;
+display: flex;
+align-items: center;
+padding-left: 200px;
+
+
+}
